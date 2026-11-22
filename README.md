@@ -1,6 +1,6 @@
 # John Michael Espedido | Online Portfolio
 
-A responsive, dark-themed personal portfolio website for John Michael Espedido, a student UI designer and front-end developer from the College of Computer Studies. It presents his background, skills, certification and selected projects in a single scrolling page.
+A responsive, dark-themed personal portfolio website for John Michael Espedido, a student from the College of Computer Studies. It presents his background, skills, certification and selected projects in a single scrolling page.
 
 ## Features
 
@@ -40,7 +40,7 @@ Bootstrap, Bootstrap Icons and the fonts are loaded from CDNs, so an internet co
     ├── badge.png        # certification badge
     ├── project1.png     # Jama Cellphone Repair Shop (16:10)
     ├── project2.png     # Project Busilak logo (16:10)
-    └──  project3.png     # Online Portfolio Figma design (16:10)
+    └── project3.png     # Online Portfolio Figma design (16:10)
 ```
 
 ## Getting Started
@@ -70,8 +70,8 @@ No build step is required.
 ## Projects Featured
 
 1. **Jama Cellphone Repair Shop**: front-end and Figma design for a local repair shop (HTML, CSS, Figma).
-2. **Project Busilak Logo**: logo design for a community project (Illustrator, Canva).
-3. **Online Portfolio Figma Design**: a portfolio website designed in Figma (Figma).
+2. **Project Busilak Logo**: logo design for an extension project at LSPU - SC (Illustrator, Canva).
+3. **Online Portfolio Figma Design**: an old portfolio website designed in Figma (Figma).
 
 ## Customizing
 
@@ -99,4 +99,4 @@ Works in current versions of Chrome, Edge, Firefox and Safari. The design uses `
 
 ## Author
 
-**John Michael Espedido**, College of Computer Studies. Aspiring UI/UX designer and developer.
+**John Michael Espedido**, College of Computer Studies. Aspiring developer.
