@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>John Michael Espedido | Online Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,800;1,800&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-nav" id="nav">
+  <nav class="container navbar navbar-expand-lg py-2 px-3 px-md-4">
+    <a class="brand" href="#home">JM<span>Espedido</span></a>
+    <button class="nav-toggler d-lg-none ms-auto" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Menu"><i class="bi bi-list"></i></button>
+    <div class="collapse navbar-collapse justify-content-center flex-lg-grow-0" id="menu">
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  <span class="nav-spacer d-none d-lg-block"></span>
+  </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7 reveal" data-reveal="left">
+        <h1>My name is <span class="name">John Michael Espedido</span></h1>
+        <div class="for">Im a  <span class="role-wrap" id="roles"></span></div>
+        <p class="lead-s mt-3">I am a 3rd year student at  Laguna State Polytechnic University - Siniloan campus. Currently taking Bachelor of Science in Information Technology Major in web and Mobile application Development.</p>
+        <div class="d-flex align-items-center gap-3 mt-4">
+          <a href="#contact" class="btn-contact">Contact me <span class="ic"><i class="bi bi-arrow-right"></i></span></a>
+          <a href="#projects" class="btn-ghost">View my work</a>
+        </div>
+      </div>
+      <div class="col-lg-5 reveal" data-reveal="pop">
+        <div class="photo" data-img="profile" data-alt="John Michael Espedido">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATION -->
+<section class="text-center pb-0">
+  <div class="container reveal" data-reveal="pop">
+    <div class="cert-title sans">CURRENT CERTIFICATION / BADGE</div>
+    <div class="badge-box mx-auto" data-img="badge" data-alt="ITS HTML/CSS Badge"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7 reveal" data-reveal="left">
+        <h2 class="sec-title">ABOUT <span>ME</span></h2>
+        <p class="sans mt-3"><b style="color:var(--text)">Hi, I am JM</b><br>I have a passion for web development and design. I like making interfaces that are simple to understand and pleasant to use.</p>
+        <div class="row">
+          <div class="col-md-6"><h4>My Journey</h4><p class="sans">I began with HTML and CSS, then moved into Figma and UI design. Each project teaches me something new about building for real people.</p></div>
+          <div class="col-md-6"><h4>My Goal</h4><p class="sans">My goal is to become a developer who ships thoughtful, accessible, and well-built products.</p></div>
+        </div>
+      </div>
+
+      <div class="col-lg-5 reveal" data-reveal="drop">
+        <div class="lanyard">
+          <div class="strap"></div>
+          <div class="id-wrap" id="idCard" tabindex="0" role="button" aria-label="ID card. Flip to see my skills">
+            <div class="id-card">
+              <div class="face front" data-img="idFront" data-alt="ID card">
+                <div class="av"></div>
+                <b>John Michael Espedido</b><small>Laguna State Polytechnic University</small><hr><small>College of Computer Studies</small>
+              </div>
+              <div class="face back">
+                <div class="skills">
+                  <h6>My Skills</h6>
+                  <div class="grp">Frontend</div>
+                  <div class="pills"><span>HTML5</span><span>CSS</span><span>BOOTSTRAP</span><span>JAVASCRIPT</span></div>
+                  
+                  <div class="grp">Backend</div>
+                  <div class="pills"><span>PYTHON</span><span>JAVA</span><span>MYSQL</span></div>
+                  
+                  <div class="grp">Others</div>
+                  <div class="pills"><span>FIGMA</span><span>CANVA</span><span>ILLUSTRATOR</span></div>
+                  <div class="tags"><i>&bull;</i>Web development<i>&bull;</i>UI/UX Design<i>&bull;</i>Frontend</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <h2 class="sec-title text-center mb-5 reveal"><span>MY</span> PROJECT</h2>
+
+    <div class="proj reveal">
+      <div class="stack" id="stack" tabindex="0" role="button" aria-label="Project deck. Click to see the next project">
+        <div class="pcard shot-jama" data-pos="0" data-img="project1" data-alt="Jama Cellphone Repair Shop">
+          <div class="logo"><i class="bi bi-phone"></i></div>
+        </div>
+        <div class="pcard shot-bus" data-pos="1" data-img="project2" data-alt="Project Busilak logo">
+          <div class="text-center"></div>
+        </div>
+        <div class="pcard shot-fig" data-pos="2" data-img="project3" data-alt="Online Portfolio Figma Design"></div>
+      </div>
+
+      <div class="proj-info" aria-live="polite">
+        <div class="info-panel active">
+          <h5>Jama Cellphone Repair Shop</h5>
+          <p class="sans">Frontend and figma design for a local repair shop.</p>
+          <div class="tools"><div class="tool" data-img="html" data-alt="HTML">HTML<i class="bi bi-filetype-html i-html"></i></div><div class="tool" data-img="css" data-alt="CSS">CSS<i class="bi bi-filetype-css i-css"></i></div><div class="tool">Figma<i class="icon-figma"></i></div></div>
+        </div>
+
+        <div class="info-panel">
+          <h5>Project Busilak Logo</h5>
+          <p class="sans">Logo design for a community project.</p>
+          <div class="tools"><div class="tool" data-img="ai" data-alt="AI">AI<i class="bi bi-vector-pen i-ai"></i></div><div class="tool" data-img="canva" data-alt="Canva">Canva<i class="bi bi-palette i-canva"></i></div></div>
+        </div>
+
+        <div class="info-panel">
+          <h5 class="normal">Online Portfolio Figma Design</h5>
+          <p class="sans">A portfolio website designed in Figma.</p>
+          <div class="tools"><div class="tool">Figma<i class="icon-figma"></i></div></div>
+        </div>
+        <div class="deck-hint sans">Current Projects &middot; <span id="deckCount">1 / 3</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2 class="sec-title mb-5 reveal"><span>CONTACT</span> ME</h2>
+    <div class="row g-5">
+      <div class="col-md-5 info reveal" data-reveal="left">
+        <h4>Send me <span>Message</span><br>for any info.</h4>
+        <p class="sans mt-3 mb-1">Contact me anytime</p>
+        <p class="sans fw-semibold" style="color:var(--text)">0978-418-1296</p>
+        <p class="sans">jmespedido04@gmail.com</p>
+        <div class="socials mt-4">
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="Discord"><i class="bi bi-discord"></i></a>
+          <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+      <div class="col-md-7 reveal" data-reveal="right">
+        <form id="form" novalidate>
+          <div class="field"><label for="em">Email*</label><input id="em" type="email" required></div>
+          <div class="field"><label for="ms">Message*</label><textarea id="ms" rows="4" required></textarea></div>
+          <button class="btn-send" type="submit">Send</button><span class="toast-note" id="note" role="status"></span>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>&copy; <span id="yr"></span> John Michael Espedido</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/app.js"> </script>
+</body>
+</html>
