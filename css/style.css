@@ -10,12 +10,15 @@
   --shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
+
 * {
   scroll-margin-top: 90px;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Playfair Display", serif;
   background: var(--bg);
@@ -25,17 +28,19 @@ body {
     color 0.5s var(--ease);
   overflow-x: hidden;
 }
+
 .sans {
   font-family: "Inter", sans-serif;
 }
+
 .accent {
   color: var(--accent);
 }
+
 section {
   padding: 90px 0;
 }
 
-/* NAV */
 .site-nav {
   position: fixed;
   inset: 0 0 auto 0;
@@ -112,7 +117,6 @@ section {
   font-size: 1.7rem;
 }
 
-/* HERO */
 .hero {
   background: var(--bg-soft);
   padding: 150px 0 90px;
@@ -184,7 +188,6 @@ section {
   }
 }
 
-/* CONTACT BUTTON */
 .btn-contact {
   display: inline-flex;
   align-items: center;
@@ -275,7 +278,6 @@ section {
   }
 }
 
-/* ABOUT */
 .about p {
   font-size: 0.88rem;
   line-height: 1.7;
@@ -479,7 +481,6 @@ section {
   border-color: var(--line);
 }
 
-/* PROJECTS */
 .proj {
   display: flex;
   gap: 5rem;
@@ -634,7 +635,6 @@ section {
   color: #00c4cc;
 }
 
-/* CONTACT */
 .contact h2 {
   text-align: center;
 }
@@ -759,7 +759,6 @@ footer {
   color: var(--muted);
 }
 
-/* IMAGE SLOTS (filled by the IMAGES list in the script) */
 .photo {
   position: relative;
 }
@@ -792,7 +791,6 @@ footer {
   display: none;
 }
 
-/* REVEAL (slide / drop / pop, no fade) */
 .reveal {
   --from: translateY(90px);
   transform: var(--from);
@@ -817,7 +815,6 @@ footer {
   transition: transform 1.3s cubic-bezier(0.28, 1.45, 0.4, 1);
 }
 
-/* RESPONSIVE */
 @media (max-width: 991px) {
   .nav-links {
     padding: 1rem 0;
@@ -869,7 +866,6 @@ footer {
   }
 }
 
-/* BADGE CONTAINER */
 .cert-title {
   font-size: 0.8rem;
   letter-spacing: 0.12em;
@@ -894,7 +890,6 @@ footer {
   object-fit: contain;
 }
 
-/* ID CARD FRONT: smaller photo inside a container */
 .face.front {
   padding-top: 208px;
 }
@@ -916,7 +911,6 @@ footer {
   display: none;
 }
 
-/* PROJECT CARD DECK (single stack, click to shuffle) */
 .stack {
   cursor: pointer;
   outline: 0;
@@ -953,21 +947,26 @@ footer {
   opacity: 0.8;
   filter: brightness(0.75);
 }
+
 .pcard[data-pos="2"] {
   z-index: 1;
   transform: translate(26px, -26px) scale(0.94);
   opacity: 0.55;
   filter: brightness(0.55);
 }
+
 .stack:hover .pcard[data-pos="0"] {
   transform: translate(-6px, 6px);
 }
+
 .stack:hover .pcard[data-pos="1"] {
   transform: translate(22px, -20px) scale(0.97) rotate(1deg);
 }
+
 .stack:hover .pcard[data-pos="2"] {
   transform: translate(44px, -40px) scale(0.94) rotate(2deg);
 }
+
 .pcard.leaving {
   z-index: 4;
   transform: translate(-70%, 14%) rotate(-12deg) !important;
@@ -977,7 +976,6 @@ footer {
     opacity 0.45s !important;
 }
 
-/* text that changes with the front card */
 .proj-info {
   flex: 1;
   display: grid;
@@ -1010,4 +1008,18 @@ footer {
 .deck-hint span {
   color: var(--accent);
   font-weight: 700;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+section,
+footer {
+  overflow-x: clip;
+}
+@media (max-width: 767px) {
+  .reveal[data-reveal="left"]  { --from: translateX(-50px); }
+  .reveal[data-reveal="right"] { --from: translateX(50px); }
 }
